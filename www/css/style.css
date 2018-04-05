@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+
+}
+body, html{
+	height: 100%;
+	margin: 0;
+	background-color: orange;
+
+}
+
+#centerpls{
+	max-width: 100%;
+	display: grid;
+	
+
+}
+#underboy{
+	width: 100%;
+	background: #90D086;
+	overflow: hidden;
+
+
+}
+
+#wrap{
+	/*overflow: hidden;*/
+	margin: auto;
+	max-width: 70%;	
+	background-color: #90D086;
+
+
+}
+#cleartext, #printarray, #mood{
+	position: relative;
+	top: 50px;
+
+
+
+}
+#msg{
+	font-size: 12em;
+	position: relative;
+	top: 80px;
+	margin: auto;
+	line-break: auto;
+
+
+
+}
+#moodtext{
+	position: relative;
+	top: 15vh;
+	margin: auto;
+
+
+}
+#input{
+	width: 100%;
+	position: relative;
+	top: 5px;
+	background-color: #DBF5D7;
+	/*padding: 0px;*/
+	border: 0px;
+	margin: 0px;
+
+
+}
+#bottom{
+	position: relative;
+	text-align: center;
+	top: 30vh;
+	margin: auto;
+
+
+}
+#bottom2{
+	position: relative;
+	text-align: center;
+	top: 40vh;
+	margin: auto;
+
+
+
+}
+.km-android input, .km-android select, .km-android textarea, .km-android .km-widget{
+	color: #4C061D;
+	background-color: #DBF5D7;
+	border-color: #DBF5D7;
+
+}
+.buttonStyle{
+
+
+
+}
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- These three tags will help the OS not freak out -->
+       <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,   minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       <meta name="format-detection" content="telephone=no" />
+       <meta name="msapplication-tap-highlight" content="no" />
+       <link rel="stylesheet" href="css/kendo.mobile.all.css">
+
+       <!-- this is the p5 shit -->
+       <script src="js/p5.min.js"></script>
+
+       <script src="js/p5.sound.min.js"></script>
+       <script src="js/p5.sound.js"></script>
+       <script src="js/p5.dom.min.js"></script>
+       <script src="js/sketch.js"></script>
+
+
+       <!-- End of the p5 shit -->
+       <link rel="stylesheet" href="css/style.css">
+
+        <title>SyntheCider</title>
+    </head>
+    <body>
+
+      <section data-role="layout" data-id="default">
+
+          <!-- layout inside here  -->
+          <header data-role="header">
+              <div data-role="navbar">
+                <h1>SyntheCider</h1>
+
+              </div>
+
+          </header>
+          <!-- main content will be inserted here -->
+          <footer data-role="footer">
+            
+
+          </footer>
+
+
+      </section>
+
+
+
+        <!-- always give the view its own id tag -->
+      <div data-role="view" data-layout="default" id="pg-1">
+        <style type="text/css">
+          #input{
+            outline-width: 0px;
+
+          }
+
+        </style>
+        <div id="underboy">
+        <div id="wrap">
+          <div id="myCanvas">        
+          <div id="centerpls">  
+         <input type="text" maxlength="1" placeholder="type" id="input">
+         <input type="button" value="DeleteSynths" id="cleartext" class="buttonStyle">
+         <!-- <input type="button" value="print array to console" id="printarray" class="buttonStyle"> -->
+         <input type="button" value="Mood" id="mood" class="buttonStyle">
+        
+        <h2 id="moodtext" class="center">hi</h2>
+        <h1 id="msg" class="center"></h1>
+        <h1 id="bottom">Type in me!</h1>
+        <h2 id="bottom2">Press Enter When Done!</h2>
+      </div>
+
+       </div>
+     </div>
+   </div>
+      </div>
+
+
+
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/kendo.ui.core.min.js"></script>
+        
+       <script> 
+
+          var app = new kendo.mobile.Application();
+
+         </script>
+
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
